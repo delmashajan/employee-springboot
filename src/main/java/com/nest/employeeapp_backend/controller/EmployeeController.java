@@ -11,6 +11,10 @@ public class EmployeeController {
     public String Welcomeemployee(){
         return "welcome employee";
     }
+    @GetMapping("/add")
+    public String Addemployee(){
+        return "add employee";
+    }
 
 
 }
